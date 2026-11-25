@@ -17,6 +17,9 @@ function FindProxyForURL(url, host) {
     }
 
     var directDomains = [
+        // GitHub Pages — хостинг PAC
+        "github.io",
+
         // Triad of the Mind
         "triadmind.ru",
 
