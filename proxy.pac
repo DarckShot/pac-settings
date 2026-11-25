@@ -17,6 +17,8 @@ function FindProxyForURL(url, host) {
     }
 
     var directDomains = [
+        "darckshot-server.duckdns.org",
+
         // GitHub Pages — хостинг PAC
         "github.io",
 
